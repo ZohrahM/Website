@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Cake Deco</title>
+        <link rel="stylesheet" href="..\Template\TemplateStyle.css">
+        <link rel="stylesheet" href="HomeStyle.css">
+    </head>
+
+    <body data-theme="light">
+        <div id="navbar">
+            <div class="banner">
+                <a href="#"><div id="logo"></div></a>
+
+                <p class="theme light">Light</p>
+
+                <div class="theme-switcher">
+                    <input type="checkbox" id="switcher">
+                    <label for=switcher>switch</label>
+                </div>        
+
+                <p class="theme dark">Dark</p>
+            </div>
+            
+
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button id="Dropdown" type="button">Events &#9660;</button>
+
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="#">&#xbb; Gallery</a></li>
+                                        <li><a href="#">&#xbb; Workshop</a></li>
+                                        <li class="sub"><a href="#">&#xbb; St Valentine's Day</a></li>
+                                        <li class="sub"><a href="#">&#xbb; Mother's Day</a></li>
+                                        <li class="sub"><a href="#">&#xbb; National Cake Deco Day</a></li>
+                                        <li class="sub"><a href="#">&#xbb; Christmas</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <button id="register" type="button">Join Club</button>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <script src="..\Template\main.js"></script>
+
+        <img id="banner" src="..\Picture\Home_Post\banner.jpg">
+
+        <ul class="breadcrumb">
+            <li><b>Home</b></li>
+         </ul>
+
+        <div class="list_post">
+            <h1>List of Posts (Blog)</h1>
+            <br>
+            <br>
+
+            <div class="flexbox">
+                <div class="card">
+                    <img src="..\Picture\Home_Post\Post1_Techniques.jpg">
+                    <div class="info">
+                        <h1>Cake Deco Techniques</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis ducimus in, impedit quasi maxime quidem autem molestias? Asperiores quibusdam porro enim ipsum hic libero error voluptatum nihil exercitationem esse.</p>
+                        <a href="#" class="post-link">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="..\Picture\Home_Post\Post2_Tools.png">
+                    <div class="info">
+                        <h1>Cake Deco Tools</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis ducimus in, impedit quasi maxime quidem autem molestias? Asperiores quibusdam porro enim ipsum hic libero error voluptatum nihil exercitationem esse.</p>
+                        <a href="#" class="post-link">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="..\Picture\Home_Post\Post3_Influencers.jpg">
+                    <div class="info">
+                        <h1>Cake Deco Inspiration</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis ducimus in, impedit quasi maxime quidem autem molestias? Asperiores quibusdam porro enim ipsum hic libero error voluptatum nihil exercitationem esse.</p>
+                        <a href="#" class="post-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="workshop">
+            <h1>List of Events Organised</h1>
+
+            <div id="slider">
+                <input type="radio" name="event" id="event1" checked>
+                <input type="radio" name="event" id="event2">
+                <input type="radio" name="event" id="event3">
+                <input type="radio" name="event" id="event4">
+                
+                <div id="events">
+                    <div id="overflow">
+                        <div class="inner">
+                            <div class="slide event-1">
+                                <img src="..\Picture\Event _Carousel\St_Valentine.png">
+                            </div>
+                            <div class="slide event-2">
+                                <img src="..\Picture\Event _Carousel\Mother_Day.png">
+                            </div>
+                            <div class="slide event-3">
+                                <img src="..\Picture\Event _Carousel\Cake_Deco_Day.png">
+                            </div>
+                            <div class="slide event-4">
+                                <img src="..\Picture\Event _Carousel\Christmas.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="btn">
+                    <label for="event1"></label>
+                    <label for="event2"></label>
+                    <label for="event3"></label>
+                    <label for="event4"></label>
+                </div>
+            </div>
+        </div>
+    </body>
+
+
+
+
+    <footer>
+        <nav>
+            <div class="link">
+                <ul>
+                    <li>
+                        <a href="#">Sitemap</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="line"></div>
+            
+            <div class="foot">
+                <div id="logo"></div>
+                <br>
+                <p id="cpyr">Copyrights &copy Cake Deco - All Rights Reserved</p>
+            </div>
+
+                
+        </nav>
+
+    </footer>
+
+</html>
