@@ -32,14 +32,14 @@ body[data-theme="light"] {
     --color-2: #F7CAAC;
     --color-3: black;
     --color-4: #FBE4D4;
-    --image: url("../Pictures/logo/LogoBlack.png");
+    --image: url("../Picture/Logo_Black.png");
   }
   body[data-theme="dark"] {
     --color-1: #0D2A3B;
     --color-2: #D2B49A;
     --color-3: white;
     --color-4: #CB9C96;
-    --image: url("../Pictures/logo/LogoWhite.png");
+    --image: url("../Picture/Logo_White.png");
   }
   
   body {
