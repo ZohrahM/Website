@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Cake Deco</title>
+        <link rel="stylesheet" href="..\Template\TemplateStyle.css">
+        <link rel="stylesheet" href="WorkshopsStyle.css">
+        <link rel="stylesheet" href="..\Home\HomeStyle.css"
+    </head>
+
+    <body data-theme="light">
+        <div id="navbar">
+            <div class="banner">
+                <a href="#"><div id="logo"></div></a>
+
+                <p class="theme light">Light</p>
+
+                <div class="theme-switcher">
+                    <input type="checkbox" id="switcher">
+                    <label for=switcher>switch</label>
+                </div>        
+
+                <p class="theme dark">Dark</p>
+            </div>
+            
+
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button id="Dropdown" type="button">Events &#9660;</button>
+
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="#">&#xbb; Gallery</a></li>
+                                        <li><a href="#">&#xbb; Workshop</a></li>
+                                        <li class="sub"><a href="#">&#xbb; St Valentine's Day</a></li>
+                                        <li class="sub"><a href="#">&#xbb; Mother's Day</a></li>
+                                        <li class="sub"><a href="#">&#xbb; National Cake Deco Day</a></li>
+                                        <li class="sub"><a href="#">&#xbb; Christmas</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <button id="register" type="button">Join Club</button>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <ul class="breadcrumb">
+                <li><a href="..\Home\Home.html">Home</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><b>Workshops</b></li>
+            </ul>
+
+        </div>
+
+        <script src="..\Template\main.js"></script>
+
+        <div class="rule">
+            <h1>Our Workshops</h1>
+
+            <h2>About</h2>
+
+            <div class="para">
+                <p>The UoM Cake Decoration club presents to you several workshops annually to discover the world of cake decoration. 
+                    All workshops are conducted at the University campus in Réduit.</p>
+            </div>
+            
+
+            <h2>General Requirements </h2>
+
+            <div class="para">
+                <ul>
+                    <li>Workshops open to UoM students or Staffs</li>
+                    <li>Booking for any workshops should be done at least 5 days prior to the event</li>
+                    <li>A general fee of <b>Rs 500</b> should be paid before attending any workshop 
+                        (upon registration / on the day of the event)</li>
+                    <li>Students are expected to produced their Student ID upon arriving at the workshop</li>
+                </ul>
+            </div>
+
+            
+
+            <h2>Code and Conduct</h2>
+
+            <div class="para">
+                <p>You are expected to behave and make proper use of the cooking equipment provided at the workshops. 
+                    Any misconduct will be reported to the disciplinary committee. </p>
+            </div>
+        </div>
+
+        <div class="workshop">
+            <h1>List of Events Organised</h1>
+
+            <div id="slider">
+                <input type="radio" name="event" id="event1" checked>
+                <input type="radio" name="event" id="event2">
+                <input type="radio" name="event" id="event3">
+                <input type="radio" name="event" id="event4">
+                
+                <div id="events">
+                    <div id="overflow">
+                        <div class="inner">
+                            <div class="slide event-1">
+                                <img src="..\Picture\Event _Carousel\St_Valentine.png">
+                            </div>
+                            <div class="slide event-2">
+                                <img src="..\Picture\Event _Carousel\Mother_Day.png">
+                            </div>
+                            <div class="slide event-3">
+                                <img src="..\Picture\Event _Carousel\Cake_Deco_Day.png">
+                            </div>
+                            <div class="slide event-4">
+                                <img src="..\Picture\Event _Carousel\Christmas.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="btn">
+                    <label for="event1"></label>
+                    <label for="event2"></label>
+                    <label for="event3"></label>
+                    <label for="event4"></label>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+
+
+
+    <footer>
+        <nav>
+            <div class="link">
+                <ul>
+                    <li>
+                        <a href="#">Sitemap</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="line"></div>
+            
+            <div class="foot">
+                <div id="logo"></div>
+                <br>
+                <p id="cpyr">Copyrights &copy Cake Deco - All Rights Reserved</p>
+            </div>
+
+                
+        </nav>
+
+    </footer>
+
+</html>
