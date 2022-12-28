@@ -82,7 +82,8 @@
 
   .card .info p{
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 18px;
+    font-style: bold;
     margin-top: 8px ;
     margin-bottom: 20px;
   }
