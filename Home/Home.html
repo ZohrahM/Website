@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
         <title>Cake Deco</title>
-        <link rel="stylesheet" href="..\Template\TemplateStyle.css">
+        <link rel="stylesheet" href="../Template/TemplateStyle.css">
         <link rel="stylesheet" href="HomeStyle.css">
     </head>
 
     <body data-theme="light">
         <div id="navbar">
             <div class="banner">
-                <a href="#"><div id="logo"></div></a>
+                <a href="../Home/Home.html"><div id="logo"></div></a>
 
                 <p class="theme light">Light</p>
 
@@ -28,7 +28,7 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="..\Home\Home.html" title="Home">Home</a>
+                            <a href="../Home/Home.html" title="Home">Home</a>
                         </li>
                         <li>
                             <div class="dropdown">
@@ -36,38 +36,40 @@
 
                                 <div class="dropdown-menu">
                                     <ul>
-                                        <li><a href="#">&#xbb; Gallery</a></li>
-                                        <li><a href="..\Events\Workshops\Workshops.html">&#xbb; Workshop</a></li>
-                                        <li class="sub"><a href="#">&#xbb; St Valentine's Day</a></li>
-                                        <li class="sub"><a href="#">&#xbb; Mother's Day</a></li>
-                                        <li class="sub"><a href="#">&#xbb; National Cake Deco Day</a></li>
-                                        <li class="sub"><a href="#">&#xbb; Christmas</a></li>
+                                        <li><a href="../Events/Gallery/Gallery.html">&#xbb; Gallery</a></li>
+                                        <li><a href="../Events/Workshops/Workshops.html">&#xbb; Workshop</a></li>
+                                        <li class="sub"><a href="../Events/Workshops/St Valentine.html">&#xbb; St Valentine's Day</a></li>
+                                        <li class="sub"><a href="../Events/Workshops/Mother Day.html">&#xbb; Mother's Day</a></li>
+                                        <li class="sub"><a href="../Events/Workshops/Cake Deco Day.html">&#xbb; National Cake Deco Day</a></li>
+                                        <li class="sub"><a href="../Events/Workshops/Christmas.html">&#xbb; Christmas</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="#" title="Blog">Blog</a>
+                            <a href="../Blog/Blog.html" title="Blog">Blog</a>
                         </li>
                         <li>
-                            <a href="#" title="About Us">About Us</a>
+                            <a href="../About Us/About Us.html" title="About Us">About Us</a>
                         </li>
                         <li>
-                            <button id="register" type="button">Join Club</button>
+                            <a href="../Join Us/Join Us.html" title="Join Us"><button id="register" type="button">Join Club</button></a>
                         </li>
                     </ul>
                 </nav>
             </header>
 
+            <!--Breadcrumb for Home-->
             <ul class="breadcrumb">
                 <li><b>Home</b></li>
              </ul>
+
         </div>
 
-        <script src="..\Template\main.js"></script>
+        <script src="../Template/main.js"></script>
 
         <div id="intro">
-            <img id="banner" src="..\Picture\Home_Post\banner.jpg">
+            <img id="banner" src="../Picture/Home_Post/banner.jpg">
         </div>
 
 
@@ -78,29 +80,29 @@
 
             <div class="flexbox">
                 <div class="card">
-                    <img src="..\Picture\Home_Post\Post1_Techniques.jpg">
+                    <img src="../Picture/Home_Post/Post1_Techniques.jpg">
                     <div class="info">
                         <h1>Cake Deco Techniques</h1>
                         <p>Discover the different cake decoration techniques in this post</p>
-                        <a href="#" class="post-link">Learn More</a>
+                        <a href="../Blog/Cake Deco Techniques.html" class="post-link">Learn More</a>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img src="..\Picture\Home_Post\Post2_Tools.png">
+                    <img src="../Picture/Home_Post/Post2_Tools.png">
                     <div class="info">
                         <h1>Cake Deco Tools</h1>
                         <p>Discover the different cake decoration tools in this post</p>
-                        <a href="#" class="post-link">Learn More</a>
+                        <a href="../Blog/Cake Deco Tools.html" class="post-link">Learn More</a>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img src="..\Picture\Home_Post\Post3_Influencers.jpg">
+                    <img src="../Picture/Home_Post/Post3_Influencers.jpg">
                     <div class="info">
                         <h1>Cake Deco Inspiration</h1>
                         <p>Discover the different cake decoration influencers in this post</p>
-                        <a href="#" class="post-link">Learn More</a>
+                        <a href="../Blog/Influencers.html" class="post-link">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -119,16 +121,16 @@
                     <div id="overflow">
                         <div class="inner">
                             <div class="slide event-1">
-                                <a href="#"><img src="..\Picture\Event _Carousel\St_Valentine.png"></a>
+                                <a href="../Events/Workshops/St Valentine.html"><img src="../Picture/Event _Carousel/St_Valentine.png"></a>
                             </div>
                             <div class="slide event-2">
-                                <a href="#"><img src="..\Picture\Event _Carousel\Mother_Day.png"></a>
+                                <a href="../Events/Workshops/Mother Day.html"><img src="../Picture/Event _Carousel/Mother_Day.png"></a>
                             </div>
                             <div class="slide event-3">
-                                <a href="#"><img src="..\Picture\Event _Carousel\Cake_Deco_Day.png"></a>
+                                <a href="../Events/Workshops/Cake Deco Day.html"><img src="../Picture/Event _Carousel/Cake_Deco_Day.png"></a>
                             </div>
                             <div class="slide event-4">
-                                <a href="#"><img src="..\Picture\Event _Carousel\Christmas.png"></a>
+                                <a href="../Events/Workshops/Christmas.html"><img src="../Picture/Event _Carousel/Christmas.png"></a>
                             </div>
                         </div>
                     </div>
@@ -143,35 +145,32 @@
                 </div>
             </div>
         </div>
-    </body>
 
+        <footer>
+            <nav>
+                <div class="link">
+                    <ul>
+                        <li>
+                            <a href="../Site Map/Sitemap.html" title="Sitemap">Sitemap</a>
+                        </li>
+                        <li>
+                            <a href="../Contact Us/Contact Us.html" title="Contact Us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
 
-
-
-    <footer>
-        <nav>
-            <div class="link">
-                <ul>
-                    <li>
-                        <a href="..\Site Map\Sitemap.html" title="Sitemap">Sitemap</a>
-                    </li>
-                    <li>
-                        <a href="..\Contact Us\Contact Us.html" title="Contact Us">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div id="line"></div>
-            
-            <div class="foot">
-                <div id="logo"></div>
-                <br>
-                <p id="cpyr">Copyrights &copy Cake Deco - All Rights Reserved</p>
-            </div>
-
+                <div id="line"></div>
                 
-        </nav>
+                <div class="foot">
+                    <div id="logo"></div>
+                    <br>
+                    <p id="cpyr">Copyrights &copy Cake Deco - All Rights Reserved</p>
+                </div>
 
-    </footer>
+                    
+            </nav>
+
+        </footer>    
+    </body>
 
 </html>
