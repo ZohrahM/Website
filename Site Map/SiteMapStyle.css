@@ -1,0 +1,38 @@
+
+  ul.sitemap {
+    padding-top: 180px;
+    padding-left: 30px;
+    list-style: none;
+    background-color: none;
+  }
+
+  ul.sitemap li {
+    font-size: 24px; 
+    margin: 6px;
+  }
+
+  ul.sitemap li a{
+   color: var(--color-3);
+   text-decoration: none;
+  }
+  
+  ul.sitemap li a:hover {
+    text-decoration: underline;
+  }
+
+  ul.sitemap li.sub_a {
+    font-size: 22px; 
+    margin-left: 60px;
+  }
+
+  ul.sitemap li.sub_b {
+    font-size: 18px; 
+    margin-left: 120px;
+    list-style-type: circle;
+  }
+
+  ul.sitemap li.sub_c {
+    font-size: 16px; 
+    margin-left: 180px;
+    list-style-type:"» ";
+  }
