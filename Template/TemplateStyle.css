@@ -81,9 +81,23 @@ nav li{
   margin: 75px;
 }
 
+nav li a::before {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
 nav li a{
+  display: inline-block;
   text-decoration: none;
   color: var(--color-3);
+}
+
+nav li a:hover{
+  font-weight: bold;
 }
 
 #Dropdown{
