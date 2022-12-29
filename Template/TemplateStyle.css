@@ -10,7 +10,7 @@
   background-color: var(--color-1);
 }
 
-#logo{
+.logo{
   width:20%;
   height:100%;
   padding-left: 1%;
@@ -199,7 +199,7 @@ footer ul::after{
   bottom: 90px;
 }
 
-footer #logo{
+footer .logo{
   background-color: var(--color-2);
   position: sticky;
   padding-top: 45px;
@@ -220,7 +220,7 @@ footer p{
 #line{
   position: absolute;
   bottom: 65px;
-  background: black;
+  background: var(--color-3);
   width: 100%;
   height: 2px;
   z-index: 11;
@@ -279,7 +279,7 @@ input:checked + label::after {
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
-  background-color: none;
+  background-color: transparent;
 }
 ul.breadcrumb li {
   display: inline;

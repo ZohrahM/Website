@@ -1,9 +1,9 @@
 #intro{
-  padding-top: 170px;
+  padding-top: 172px;
 }
 
 #banner{
-    border-top: 2px solid white;
+    border-top: 4px solid white;
     max-width: 100%;
   }
 
@@ -87,7 +87,7 @@
   .card .info p{
     letter-spacing: 1px;
     font-size: 18px;
-    font-style: bold;
+    font-weight: bold;
     margin-top: 8px ;
     margin-bottom: 20px;
   }

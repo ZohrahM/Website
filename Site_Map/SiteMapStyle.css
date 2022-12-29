@@ -3,7 +3,7 @@
     padding-top: 180px;
     padding-left: 30px;
     list-style: none;
-    background-color: none;
+    background-color: transparent;
   }
 
   ul.sitemap li {
