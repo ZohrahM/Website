@@ -1,0 +1,23 @@
+.rule{
+    padding-top: 185px;
+    margin-left: 150px;
+    padding-bottom: 50px;
+}
+
+.rule h1{
+    font-size: 30pt;
+    padding-bottom: 20px;
+}
+
+.rule .para{
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+    margin: 6px;
+    font-size: 21px;
+}
+
+p.modify a{
+    color:var(--color-5) ; 
+}
