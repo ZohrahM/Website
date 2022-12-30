@@ -1,0 +1,59 @@
+#top{
+    padding-top: 172px;
+}
+  
+#poster{
+    border-top: 4px solid white;
+    max-width: 100%;
+}
+.event{
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.event h1{
+  font-size: 30pt;
+  padding-bottom: 20px;
+}
+
+.event h2{
+  font-size: 20pt;
+  padding-bottom: 20px;
+}
+
+.event .para{
+  padding-left: 50px;
+  padding-right: 170px;
+  padding-bottom: 50px;
+  letter-spacing: 1px;
+  margin: 6px;
+  font-size: 22px;
+}
+
+.event .para p{ 
+  padding-bottom: 30px;
+}
+
+.event p.indent{ 
+  padding-left: 30px;
+}
+
+.event .para a{ 
+  color:var(--color-3) ; 
+}
+
+.event p.modify a{
+  color:var(--color-5) ; 
+}
+
+#cakes{
+  padding-left: 250px;
+  padding-bottom: 30px;
+}
+#cakes img{
+  padding: 3px;
+  border: solid #ccc;
+  width: 605px;
+  height: 600px;
+  object-fit: cover;
+}
