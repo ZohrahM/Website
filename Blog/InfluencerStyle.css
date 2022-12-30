@@ -1,0 +1,44 @@
+.influ{
+    padding-top: 185px;
+    padding-left: 50px;
+  }
+  
+  .influ h1{
+    font-size: 30pt;
+    padding-bottom: 20px;
+  }
+
+  .influ h2{
+    font-size: 21pt;
+    padding-bottom: 25px;
+    padding-left: 35px;
+  } 
+
+.influ p{
+    padding-left: 30px;
+    padding-right: 170px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    margin: 6px;
+    font-size: 22px;
+}
+
+.influ img{
+    padding-left:200px;
+    padding-right:100px;
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+  }
+
+.influ .modify{
+    font-size:18pt;
+    padding:10px;
+    padding-left:530px;
+    padding-right:300px;
+    padding-bottom:20px;
+}
+
+.influ .modify a{
+    color:var(--color-5) ; 
+}
