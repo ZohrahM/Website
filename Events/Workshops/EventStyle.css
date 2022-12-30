@@ -46,11 +46,11 @@
   color:var(--color-5) ; 
 }
 
-#cakes{
+.cakes{
   padding-left: 250px;
   padding-bottom: 30px;
 }
-#cakes img{
+.cakes img{
   padding: 3px;
   border: solid #ccc;
   width: 605px;
