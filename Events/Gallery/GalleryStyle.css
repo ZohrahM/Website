@@ -1,0 +1,36 @@
+.rule{
+    padding-top: 150px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    margin-right: 50px;
+}
+
+.rule h1{
+    font-size: 30pt;
+    padding-top:40px; 
+    padding-bottom:20px;
+}
+.rule img {
+    padding: 5px;
+    padding-bottom:10px;
+    width: 705px;
+    height: 450px;
+    object-fit: cover;
+  }
+
+.rule .CakeStyle1 img {
+    padding: 5px;
+    padding-bottom:10px;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.rule .CakeStyle2 img {
+    padding: 5px;
+    padding-bottom:10px;
+    width: 705px;
+    height: 700px;
+    object-fit: cover;
+}
+  
