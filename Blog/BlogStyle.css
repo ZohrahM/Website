@@ -1,0 +1,76 @@
+.blog {
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+
+.flexbox {
+    display: flexbox;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+.bigbox {
+    width: 95%;
+    height: 100%;
+    background-color: var(--color-2);
+    background-clip: border-box;
+}
+
+.techniques,
+.tools,
+.influencers {
+    width: 220px;
+    height: 300px;
+    padding: 2rem 1rem;
+    background-color: var(--color-2);
+    position: relative;
+    display: block;
+}
+
+.box {
+    flex: 0 0 40%;
+    text-align: center;
+    background-color: var(--color-2);
+}
+
+
+img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 10%;
+    padding-top: 9%;
+    background-color: var(--color-2);
+}
+
+.info h1 {
+    padding-left: 550px;
+    padding-bottom: 30px;
+    white-space: nowrap;
+    background-color: var(--color-2);
+}
+
+.info p {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-left: 300px;
+    padding-top: 10%;
+    white-space: nowrap;
+    background-color: var(--color-2);
+
+}
+
+.info a {
+    padding-left: 300px;
+    background-color: var(--color-2);
+    font-size: 18px;
+    white-space: nowrap;
+}
