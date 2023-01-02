@@ -1,99 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <title>Cake Deco</title>
-        <link rel="stylesheet" href="../Template/TemplateStyle.css">
-        <link rel="stylesheet" href="PageStyle.css">
-    </head>
 
-    <body data-theme="light">
-        <div id="navbar">
-            <div class="banner">
-                <a href="../Home/Home.html"><div class="logo"></div></a>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Cake Deco</title>
+    <link rel="stylesheet" href="../Template/TemplateStyle.css">
+    <link rel="stylesheet" href="JoinUsStyle.css">
+</head>
 
-                <p class="theme light">Light</p>
+<body data-theme="light">
+    <div id="navbar">
+        <div class="banner">
+            <a href="../Home/Home.html">
+                <div class="logo"></div>
+            </a>
 
-                <div class="theme-switcher">
-                    <input type="checkbox" id="switcher">
-                    <label for=switcher>switch</label>
-                </div>        
+            <p class="theme light">Light</p>
 
-                <p class="theme dark">Dark</p>
+            <div class="theme-switcher">
+                <input type="checkbox" id="switcher">
+                <label for=switcher>switch</label>
             </div>
-            
 
-            <header>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="../Home/Home.html" title="Home">Home</a>
-                        </li>
-                        <li>
-                            <div class="dropdown">
-                                <button id="Dropdown" type="button">Events &#9660;</button>
-
-                                <div class="dropdown-menu">
-                                    <ul>
-                                        <li><a href="../Events/Gallery/Gallery.html">&#xbb; Gallery</a></li>
-                                        <li><a href="../Events/Workshops/Workshops.html">&#xbb; Workshop</a></li>
-                                        <li class="sub"><a href="../Events/Workshops/St_Valentine.html">&#xbb; St Valentine's Day</a></li>
-                                        <li class="sub"><a href="../Events/Workshops/Mother_Day.html">&#xbb; Mother's Day</a></li>
-                                        <li class="sub"><a href="../Events/Workshops/Cake_Deco_Day.html">&#xbb; National Cake Deco Day</a></li>
-                                        <li class="sub"><a href="../Events/Workshops/Christmas.html">&#xbb; Christmas</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="../Blog/Blog.html" title="Blog">Blog</a>
-                        </li>
-                        <li>
-                            <a href="../About_Us/About_Us.html" title="About Us">About Us</a>
-                        </li>
-                        <li>
-                            <a href="../Join_Us/Join_Us.html" title="Join Us"><button id="register" type="button">Join Club</button></a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-
-            <!--Breadcrumb for Join Us -->
-            <ul class="breadcrumb">
-                <li><a href="../../Home/Home.html">Home</a></li>
-                <li><b>Join Us</b></li>
-            </ul> 
-
+            <p class="theme dark">Dark</p>
         </div>
 
-        <script src="../Template/main.js"></script>
 
-        <footer>
+        <header>
             <nav>
-                <div class="link">
-                    <ul>
-                        <li>
-                            <a href="../Site_Map/Sitemap.html" title="Sitemap">Sitemap</a>
-                        </li>
-                        <li>
-                            <a href="../Contact_Us/Contact_Us.html" title="Contact Us">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>
+                        <a href="../Home/Home.html" title="Home">Home</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button id="Dropdown" type="button">Events &#9660;</button>
 
-                <div id="line"></div>
-                
-                <div class="foot">
-                    <div class="logo"></div>
-                    <br>
-                    <p id="cpyr">Copyrights &copy; Cake Deco - All Rights Reserved</p>
-                </div>
-
-                    
+                            <div class="dropdown-menu">
+                                <ul>
+                                    <li><a href="../Events/Gallery/Gallery.html">&#xbb; Gallery</a></li>
+                                    <li><a href="../Events/Workshops/Workshops.html">&#xbb; Workshop</a></li>
+                                    <li class="sub"><a href="../Events/Workshops/St_Valentine.html">&#xbb; St
+                                            Valentine's Day</a></li>
+                                    <li class="sub"><a href="../Events/Workshops/Mother_Day.html">&#xbb; Mother's
+                                            Day</a></li>
+                                    <li class="sub"><a href="../Events/Workshops/Cake_Deco_Day.html">&#xbb; National
+                                            Cake Deco Day</a></li>
+                                    <li class="sub"><a href="../Events/Workshops/Christmas.html">&#xbb; Christmas</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../Blog/Blog.html" title="Blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="../About_Us/About_Us.html" title="About Us">About Us</a>
+                    </li>
+                    <li>
+                        <a href="../Join_Us/Join_Us.html" title="Join Us"><button id="register" type="button">Join
+                                Club</button></a>
+                    </li>
+                </ul>
             </nav>
+        </header>
 
-        </footer>    
-    </body>
+        <!--Breadcrumb for Join Us -->
+        <ul class="breadcrumb">
+            <li><a href="../../Home/Home.html">Home</a></li>
+            <li><b>Join Us</b></li>
+        </ul>
+
+    </div>
+
+    <script src="../Template/main.js"></script>
+
+<div class="box">
+    <div class="events">
+        <div class="registerform">
+            <form>
+                <fieldset>
+                    <legend>Register Form</legend>
+
+                    <div class="name">
+                        <label for="fname">Full name:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="John Smith" required>
+                    </div>
+                    <br>
+                    <div class="age">
+                        <label for="age">Age:</label><br>
+                        <input type="text" id="age" name="age" placeholder="50" required>
+                    </div>
+                    <br>
+                    <div class="gender">
+                        <p>Gender</p>
+                        <input type="radio" id="male" name="gender" value="Male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="prefernottosay" name="gender" value="Prefer Not To Say">
+                        <label for="prefernottosay">Prefer Not To Say</label>
+                    </div>
+                    <br>
+                    <div class="email">
+                        <label for="umail">University Mail:</label><br>
+                        <input type="email" id="umail" name="umail" placeholder="This_is_an_email@uom.ac.mu" required>
+                    </div>
+                    <br>
+                    <div class="telno">
+                        <label for="telno">Phone Number:</label><br>
+                        <input type="tel" id="telno" name="telno" placeholder="+230 xxxxxxxx" required>
+                    </div>
+                    <br>
+                    <div class="experience">
+                        <label for="Experience">Experience: </label>
+                        <select id="Experience" name="Experience">
+                            <option value="Select">Select</option>
+                            <option value="Beginner">Beginner</option>
+                            <option value="Proficient">Proficient</option>
+                            <option value="Expert">Expert</option>
+                        </select>
+                    </div>
+                    <div class="confirmation">
+                        <input type="checkbox" id="confirmation" name="confirmation"> 
+                        <label for="reminder">Send Registration Confirmation email</label><br>
+                    </div>
+                    <div class="reg">
+                        <a href="../Home/Home.html"><button id="register" input type="submit" >Register</button></a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <nav>
+            <div class="link">
+                <ul>
+                    <li>
+                        <a href="../Site_Map/Sitemap.html" title="Sitemap">Sitemap</a>
+                    </li>
+                    <li>
+                        <a href="../Contact_Us/Contact_Us.html" title="Contact Us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="line"></div>
+
+            <div class="foot">
+                <div class="logo"></div>
+                <br>
+                <p id="cpyr">Copyrights &copy; Cake Deco - All Rights Reserved</p>
+            </div>
+
+
+        </nav>
+
+    </footer>
+</body>
 
 </html>
