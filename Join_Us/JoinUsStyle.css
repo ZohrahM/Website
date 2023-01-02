@@ -10,7 +10,8 @@
     width: 30%;
     justify-content: normal;
     position: relative;
-    margin: 0 530px 0;
+    margin-left: auto;
+    margin-right: auto;
     background: var(--color-2);
 }
 
