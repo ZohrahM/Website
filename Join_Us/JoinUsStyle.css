@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+.box * {
+    background-color: transparent;
+}
+
+.events {
+    width: 30%;
+    justify-content: normal;
+    position: relative;
+    margin: 0 530px 0;
+    background: var(--color-2);
+}
+
+.registerform {
+    padding-top: 185px;
+    padding-bottom: 40px;
+    margin-left: 12px;
+    width: 95%;
+}
+
+.registerform h1 {
+    font-size: 30pt;
+    padding-bottom: 55px;
+}
+
+legend {
+    font-size: 30px;
+    padding: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    border: 1px solid var(--color-3);
+    visibility: visible;
+    background-color: white;
+    color: black;
+    padding-left: 5px;
+}
+
+label {
+    float: left;
+    clear: none;
+    display: block;
+}
+
+input[type=radio] {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid var(--color-3);
+    visibility: visible;
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+    accent-color: black;
+}
+
+.confirmation input[type=checkbox] {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--color-3);
+    visibility: visible;
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+    accent-color: black;
+}
+
+.confirmation label {
+    padding-left: 10px;
+}
+
+.gender label {
+    padding: 0px 1em 0px 8px;
+}
+
+.name {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.email {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.experience {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    color: black;
+    font-size: 17px;
+}
+
+.experience label {
+    padding-right: 5px;
+    color: var(--color-3);
+}
+
+.experience option {
+    background: white;
+}
+
+.experience select {
+    display: inline-block;
+    background: white;
+    color: black;
+    font-size: 14px;
+    padding: 2px;
+}
+
+.age {
+    padding-left: 20px;
+}
+
+.gender {
+    padding-left: 20px;
+}
+
+.telno {
+    padding-left: 20px;
+}
+
+.confirmation {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.reg {
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
