@@ -6,7 +6,7 @@
         <title>Cake Deco</title>
         <link rel = "icon" href = "../Picture/Icon.png" type = "image/x-icon">
         <link rel="stylesheet" href="../Template/TemplateStyle.css">
-        <link rel="stylesheet" href="BlogStyle.css">
+        <link rel="stylesheet" href="HomeStyle.css">
     </head>
 
     <body data-theme="light">
@@ -56,61 +56,92 @@
                 </nav>
             </div>
 
-             <!--Breadcrumb for Blog-->
+             <!--Breadcrumb for Home-->
             <ul id="breadcrumb">
-                <li><a href="../Home/Index.html">Home</a></li>
-                <li><b>Blog</b></li>
+                <li><b>Home</b></li>
             </ul>
         </div>
 
-
-        <div class="container">
-            <div class="blog">
-                    <br>
-                    <br>
+         <div class="content">
+            <div id="intro">
+                <img id="banner" src="../Picture/Home_Post/banner.jpg" alt="club introduction">
+            </div>
+    
+    
+            <div class="list_post">
+                <h1>List of Posts (Blog)</h1>
+                <br>
+                <br>
+    
                 <div class="flexbox">
-                    <div class="bigbox">
-                    <div class="techniques">
-                        <div class="box">
-                            <img src="../Picture/Home_Post/Post1_Techniques.jpg" alt="Techniques">
-                        </div>
+                    <div class="card">
+                        <img src="../Picture/Home_Post/Post1_Techniques.jpg" alt="Techinques">
                         <div class="info">
                             <h1>Cake Deco Techniques</h1>
                             <p>Discover the different cake decoration techniques in this post</p>
                             <a href="../Blog/Cake_Deco_Techniques.html" class="post-link">Learn More</a>
                         </div>
                     </div>
-                    </div>
-                    <br><br>
-                    <div class="bigbox">
-                    <div class="tools">
-                        <div class="box">
-                            <img src="../Picture/Home_Post/Post2_Tools.png" alt="Tools">
-                        </div>
+    
+                    <div class="card">
+                        <img src="../Picture/Home_Post/Post2_Tools.png" alt="Tools">
                         <div class="info">
                             <h1>Cake Deco Tools</h1>
                             <p>Discover the different cake decoration tools in this post</p>
                             <a href="../Blog/Cake_Deco_Tools.html" class="post-link">Learn More</a>
                         </div>
                     </div>
-                    </div>
-                    <br><br>
-                    <div class="bigbox">
-                    <div class="influencers">
-                        <div class="box">
-                            <img src="../Picture/Home_Post/Post3_Influencers.jpg" alt="Influencers">
-                        </div>
-                        
+    
+                    <div class="card">
+                        <img src="../Picture/Home_Post/Post3_Influencers.jpg" alt="Inspirations">
                         <div class="info">
                             <h1>Cake Deco Inspiration</h1>
                             <p>Discover the different cake decoration influencers in this post</p>
                             <a href="../Blog/Influencers.html" class="post-link">Learn More</a>
                         </div>
                     </div>
+                </div>
+            </div>
+    
+            <div class="workshop">
+                <h1>List of Events Organised</h1>
+    
+                <div id="slider">
+                    <input type="radio" name="event" id="event1" checked>
+                    <input type="radio" name="event" id="event2">
+                    <input type="radio" name="event" id="event3">
+                    <input type="radio" name="event" id="event4">
+                    
+                    <div id="events">
+                        <div id="overflow">
+                            <div class="inner">
+                                <div class="slide event-1">
+                                    <a href="../Events/Workshops/St_Valentine.html"><img src="../Picture/Event_Carousel/St_Valentine.png" alt="St Valentine"></a>
+                                </div>
+                                <div class="slide event-2">
+                                    <a href="../Events/Workshops/Mother_Day.html"><img src="../Picture/Event_Carousel/Mother_Day.png" alt="Mother's Day"></a>
+                                </div>
+                                <div class="slide event-3">
+                                    <a href="../Events/Workshops/Cake_Deco_Day.html"><img src="../Picture/Event_Carousel/Cake_Deco_Day.png" alt="Cake Deco Day"></a>
+                                </div>
+                                <div class="slide event-4">
+                                    <a href="../Events/Workshops/Christmas.html"><img src="../Picture/Event_Carousel/Christmas.png" alt="Christmas"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div id="btn">
+                        <label for="event1"></label>
+                        <label for="event2"></label>
+                        <label for="event3"></label>
+                        <label for="event4"></label>
                     </div>
                 </div>
             </div>
         </div>
+
 
         <footer>
             <div class="links">
@@ -130,7 +161,7 @@
 
         </footer>
             
-        <script src="../Template/main.js" folder="main"></script>
-     
+        <script src="../Template/main.js" folder="main"></script>      
+                
     </body>
 </html>

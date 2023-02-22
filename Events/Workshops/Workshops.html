@@ -6,169 +6,158 @@
         <title>Cake Deco</title>
         <link rel = "icon" href = "../../Picture/Icon.png" type = "image/x-icon">
         <link rel="stylesheet" href="../../Template/TemplateStyle.css">
-        <link rel="stylesheet" href="../Workshops/WorkshopsStyle.css">
+        <link rel="stylesheet" href="WorkshopsStyle.css">
         <link rel="stylesheet" href="../../Home/HomeStyle.css">
     </head>
 
     <body data-theme="light">
         <div id="navbar">
             <div class="banner">
-                <a href="../../Home/Home.html"><div class="logo"></div></a>
+                <a href="../../Home/Index.html"><div class="logo"></div></a>
 
-                <p class="theme light">Light</p>
+                <div id="mode">
+                    <p class="theme light">Light</p>
 
-                <div class="theme-switcher">
-                    <input type="checkbox" id="switcher">
-                    <label for=switcher>switch</label>
-                </div>        
+                    <div class="theme-switcher">
+                        <input type="checkbox" id="switcher">
+                        <label for=switcher>switch</label>
+                    </div>        
 
-                <p class="theme dark">Dark</p>
+                    <p class="theme dark">Dark</p>
+                </div>
             </div>
-            
 
-            <header>
-                <nav>
+            <div id="hamburger">
+                <span id="icon-s">
+                    <label for=switcher><img src="../../Picture/moon.svg" id="icon"></label>
+                </span>
+                <span id="display">&#9776;</span>
+            </div>
+
+            <div id="bar">
+                <nav class="nav-area">
                     <ul>
-                        <li>
-                            <a href="../../Home/Home.html" title="Home">Home</a>
-                        </li>
-                        <li>
-                            <div class="dropdown">
-                                <button id="Dropdown" type="button">Events &#9660;</button>
-
-                                <div class="dropdown-menu">
-                                    <ul>
-                                        <li><a href="../Gallery/Gallery.html">&#xbb; Gallery</a></li>
-                                        <li><a href="../Workshops/Workshops.html">&#xbb; Workshop</a></li>
-                                        <li class="sub"><a href="../Workshops/St_Valentine.html">&#xbb; St Valentine's Day</a></li>
-                                        <li class="sub"><a href="../Workshops/Mother_Day.html">&#xbb; Mother's Day</a></li>
-                                        <li class="sub"><a href="../Workshops/Cake_Deco_Day.html">&#xbb; National Cake Deco Day</a></li>
-                                        <li class="sub"><a href="../Workshops/Christmas.html">&#xbb; Christmas</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
+                        <li><a href="../../Home/Index.html" title="Home">Home</a></li>
+                        <li class="dropdown"><a href="#">Events &#9660;</a>
+                            
+                            <ul>
+                                <li><a href="../../Events/Gallery/Gallery.html">&#xbb; Gallery</a></li>
+                                <li><a href="../../Events/Workshops/Workshops.html">&#xbb; Workshop</a></li>
+                                <li class="sub"><a href="../../Events/Workshops/St_Valentine.html">&#xbb; St Valentine's Day</a></li>
+                                <li class="sub"><a href="../../Events/Workshops/Mother_Day.html">&#xbb; Mother's Day</a></li>
+                                <li class="sub"><a href="../../Events/Workshops/Cake_Deco_Day.html">&#xbb; National Cake Deco Day</a></li>
+                                <li class="sub"><a href="../../Events/Workshops/Christmas.html">&#xbb; Christmas</a></li>
+                            </ul>
                         
-                        <li>
-                            <a href="../../Blog/Blog.html" title="Blog">Blog</a>
                         </li>
-                        <li>
-                            <a href="../../About_Us/About_Us.html" title="About Us">About Us</a>
-                        </li>
-                        <li>
-                            <a href="../../Join_Us/Join_Us.html" title="Join Us"><button id="register" type="button">Join Club</button></a>
-                        </li>
+                        <li><a href="../../Blog/Blog.html" title="Blog">Blog</a></li>
+                        <li><a href="../../About_Us/About_Us.html" title="About Us">About Us</a></li>
+                        <li><a id="join" href="../../Join_Us/Join_Us.html" title="Join Us"><button id="register" type="button">Join Club</button></a></li>
                     </ul>
                 </nav>
-            </header>
+            </div>
 
-            <!--Breadcrumb for workshop-->
-            <ul class="breadcrumb">
-                <li><a href="../../Home/Home.html">Home</a></li>
+             <!--Breadcrumb for Sitemap-->
+            <ul id="breadcrumb">
+                <li><a href="../../Home/Index.html">Home</a></li>
                 <li>Events</li>
                 <li><b>Workshop</b></li>
             </ul>
-
         </div>
 
-        <script src="../../Template/main.js"></script>
 
-        <div class="rule">
-            <h1>Our Workshops</h1>
-
-            <h2>About</h2>
-
-            <div class="para">
-                <p>The UoM Cake Decoration club presents to you several workshops annually to discover the world of cake decoration. 
-                    All workshops are conducted at the University campus in Réduit.</p>
-            </div>
-            
-
-            <h2>General Requirements </h2>
-
-            <div class="para">
-                <ul>
-                    <li>Workshops open to UoM students or Staffs</li>
-                    <li>Booking for any workshops should be done at least 5 days prior to the event</li>
-                    <li>A general fee of <b>Rs 500</b> should be paid before attending any workshop 
-                        (upon registration / on the day of the event)</li>
-                    <li>Students are expected to produced their Student ID upon arriving at the workshop</li>
-                </ul>
-            </div>
-
-            
-
-            <h2>Code and Conduct</h2>
-
-            <div class="para">
-                <p>You are expected to behave and make proper use of the cooking equipment provided at the workshops. 
-                    Any misconduct will be reported to the disciplinary committee. </p>
-            </div>
-        </div>
-
-        <div class="workshop">
-            <h1>List of Events Organised</h1>
-
-            <div id="slider">
-                <input type="radio" name="event" id="event1" checked>
-                <input type="radio" name="event" id="event2">
-                <input type="radio" name="event" id="event3">
-                <input type="radio" name="event" id="event4">
+        <div class="container">
+            <div class="rule">
+                <h1>Our Workshops</h1>
+    
+                <h2>About</h2>
+    
+                <div class="para">
+                    <p>The UoM Cake Decoration club presents to you several workshops annually to discover the world of cake decoration. 
+                        All workshops are conducted at the University campus in Réduit.</p>
+                </div>
                 
-                <div id="events">
-                    <div id="overflow">
-                        <div class="inner">
-                            <div class="slide event-1">
-                                <a href="../Workshops/St_Valentine.html"><img src="../../Picture/Event_Carousel/St_Valentine.png" alt="St_Valentine"></a>
-                            </div>
-                            <div class="slide event-2">
-                                <a href="../Workshops/Mother_Day.html"><img src="../../Picture/Event_Carousel/Mother_Day.png" alt="Mother_Day"></a>
-                            </div>
-                            <div class="slide event-3">
-                                <a href="../Workshops/Cake_Deco_Day.html"><img src="../../Picture/Event_Carousel/Cake_Deco_Day.png" alt="Cake_Deco_Day"></a>
-                            </div>
-                            <div class="slide event-4">
-                                <a href="../Workshops/Christmas.html"><img src="../../Picture/Event_Carousel/Christmas.png" alt="Christmas"></a>
+    
+                <h2>General Requirements </h2>
+    
+                <div class="para">
+                    <ul>
+                        <li>Workshops open to UoM students or Staffs</li>
+                        <li>Booking for any workshops should be done at least 5 days prior to the event</li>
+                        <li>A general fee of <b>Rs 500</b> should be paid before attending any workshop 
+                            (upon registration / on the day of the event)</li>
+                        <li>Students are expected to produced their Student ID upon arriving at the workshop</li>
+                    </ul>
+                </div>
+    
+                
+    
+                <h2>Code and Conduct</h2>
+    
+                <div class="para">
+                    <p>You are expected to behave and make proper use of the cooking equipment provided at the workshops. 
+                        Any misconduct will be reported to the disciplinary committee. </p>
+                </div>
+            </div>
+    
+            <div class="workshop">
+                <h1>List of Events Organised</h1>
+    
+                <div id="slider">
+                    <input type="radio" name="event" id="event1" checked>
+                    <input type="radio" name="event" id="event2">
+                    <input type="radio" name="event" id="event3">
+                    <input type="radio" name="event" id="event4">
+                    
+                    <div id="events">
+                        <div id="overflow">
+                            <div class="inner">
+                                <div class="slide event-1">
+                                    <a href="../Workshops/St_Valentine.html"><img src="../../Picture/Event_Carousel/St_Valentine.png" alt="St_Valentine"></a>
+                                </div>
+                                <div class="slide event-2">
+                                    <a href="../Workshops/Mother_Day.html"><img src="../../Picture/Event_Carousel/Mother_Day.png" alt="Mother_Day"></a>
+                                </div>
+                                <div class="slide event-3">
+                                    <a href="../Workshops/Cake_Deco_Day.html"><img src="../../Picture/Event_Carousel/Cake_Deco_Day.png" alt="Cake_Deco_Day"></a>
+                                </div>
+                                <div class="slide event-4">
+                                    <a href="../Workshops/Christmas.html"><img src="../../Picture/Event_Carousel/Christmas.png" alt="Christmas"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-
-                <div id="btn">
-                    <label for="event1"></label>
-                    <label for="event2"></label>
-                    <label for="event3"></label>
-                    <label for="event4"></label>
+    
+    
+                    <div id="btn">
+                        <label for="event1"></label>
+                        <label for="event2"></label>
+                        <label for="event3"></label>
+                        <label for="event4"></label>
+                    </div>
                 </div>
             </div>
         </div>
 
         <footer>
-            <nav>
-                <div class="link">
-                    <ul>
-                        <li>
-                            <a href="../../Site_Map/Sitemap.html" title="Sitemap">Sitemap</a>
-                        </li>
-                        <li>
-                            <a href="../../Contact_Us/Contact_Us.html" title="Contact Us">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="links">
+                <ul>
+                    <li><a href="../../Site_Map/Sitemap.html" title="Sitemap">&#xbb; Sitemap</a></li>
+                    <li><a href="../../Contact_Us/Contact_Us.html" title="Contact Us">&#xbb; Contact Us</a></li>
+                </ul>
+            </div>
 
-                <div id="line"></div>
-                
-                <div class="foot">
-                    <div class="logo"></div>
-                    <br>
-                    <p id="cpyr">Copyrights &copy; Cake Deco - All Rights Reserved</p>
-                </div>
+            <div id="line"></div>
+            
+            <div class="foot">
+                <div class="logo"></div>
+                <br>
+                <p id="cpyr">Copyrights &copy; Cake Deco - All Rights Reserved</p>
+            </div>
 
-                    
-            </nav>
+        </footer>
+            
+        <script src="../../Template/main.js" folder="sub"></script>
 
-        </footer>    
-    </body>   
-
+    </body>
 </html>
