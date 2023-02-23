@@ -205,7 +205,7 @@ body {
   font-size: 25px;
   display: block;
   background-color: var(--color-2);
-  padding: 17px 15px;
+  padding: 18px 15px;
   color: var(--color-3);
   text-decoration: none;
   text-align: center;
@@ -241,12 +241,13 @@ body {
   border-radius: 10px;
   border: none;
   color: var(--color-3);
-  padding: 10px 20px;
+  padding: 10.5px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
   cursor: pointer;
+  border: transparent none;
 }
 
 #join{
