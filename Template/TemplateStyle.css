@@ -201,10 +201,10 @@ body {
 }
 
 .nav-area a{
-  font-size: 25px;
+  font-size: 24px;
   display: block;
   background-color: var(--color-2);
-  padding: 18px 15px;
+  padding: 18.2px 15px;
   color: var(--color-3);
   text-decoration: none;
   text-align: center;
@@ -250,7 +250,7 @@ body {
 }
 
 #join{
-  padding: 10.5px;
+  padding: 10px;
 }
 
 
