@@ -25,26 +25,19 @@ p.modify a{
 
 @media(max-width: 600px){
     .rule{
-        margin-left: 30px;
         margin-right: 5px;
     }
 
     .rule h1{
         font-size: 22pt;
-        padding-bottom: 20px;
     }
     
 
     .rule h2{
         font-size: 18pt;
-        margin-left: 20px;
     }
 
     .rule .para{
-        padding-left: 40px;
-        padding-right: 10px;
-        padding-bottom: 50px;
-        letter-spacing: 3px;
         font-size: 18px;
     }
   }
