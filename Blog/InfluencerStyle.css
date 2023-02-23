@@ -25,7 +25,7 @@
 
 .influ img {
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: auto;
   width: 75%;
   height:auto;
   object-fit: cover;
@@ -34,8 +34,8 @@
 .influ .modify{
     font-size:16pt;
     padding:5px;
-    padding-left:200px;
-    padding-right: 30%;
+    padding-left:30%;
+    padding-right:25%;
     padding-bottom:20px;
 }
 
@@ -68,12 +68,12 @@
   }
   .influ img {
       width: 95%;
-      padding-left: 100px;
-      padding-right: 50px;
+      padding-left: 60px;
+      
   }
   .influ .modify{
-    padding-left:180px;
-    padding-right: 20%;
+    padding-left:35%;
+    padding-right: auto;
     font-size:15pt;
   }
 }
@@ -89,6 +89,7 @@
   
   .influ .modify{
     padding-left:150px;
+    padding-right:20%;
     font-size:14pt;
   }
 }
