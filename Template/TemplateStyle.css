@@ -149,6 +149,7 @@ body {
 .nav-area{
   width: 100%;
   background-color: var(--color-2);
+  height: 64.5px;
 }
 
 .nav-area ul{
@@ -160,10 +161,12 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  height: 100%;
 }
 
 .nav area ul li{
   width: 50%;
+  height: 100%;
 }
 
 .nav-area ul li > ul{
@@ -201,10 +204,11 @@ body {
 }
 
 .nav-area a{
+  height: 100%;
   font-size: 24px;
   display: block;
   background-color: var(--color-2);
-  padding: 18.2px 15px;
+  padding: 18.1px 15px;
   color: var(--color-3);
   text-decoration: none;
   text-align: center;
@@ -222,7 +226,6 @@ body {
 }
 
 .nav-area .dropdown li > a:hover{
-  /* background-color: #e84393; */
   background-color: var(--color-6);
 }
 
