@@ -395,4 +395,11 @@ z-index: 11;
     display: none;
   }
 
+  .nav-area a{
+    height: auto;
+  }
+
+  .nav-area ul{
+    height: auto;
+  }
 }
