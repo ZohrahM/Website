@@ -126,6 +126,9 @@
     }
 }
 @media(max-width: 600px){
+  .rule h1{
+    font-size: 20pt;
+  }
   .rule h2{
     padding-top:13%;
     padding-bottom:13%;
