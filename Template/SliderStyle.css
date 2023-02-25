@@ -1,0 +1,38 @@
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  padding-bottom: 350px;
+}
+
+.img-comp-img {
+  width: auto;
+  height: auto;
+  position: absolute;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  width:350px;
+  height:auto;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #F7CAAC;
+  opacity: 0.8;
+  border-radius: 50%;
+}
+
+@media(max-width: 600px){
+  .cakes{
+    padding-left: 15%;
+    
+  }
+}
