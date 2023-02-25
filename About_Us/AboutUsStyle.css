@@ -8,12 +8,18 @@
     padding-bottom: 20px;
 }
 
-.rule .para{
+.rule .para, .rule li{
     padding-left: 50px;
     padding-right: 150px;
     letter-spacing: 1px;
     margin: 6px;
     font-size: 22px;
+}
+
+.rule li{
+    padding-bottom: 20px;
+    line-height: 15px;
+    list-style-position: inside;
 }
 
 .rule .para p{ 
@@ -23,6 +29,8 @@
 .rule .para a{ 
     color:var(--color-3) ; 
 }
+
+
 
 
 @media(max-width: 600px){
@@ -39,7 +47,7 @@
         font-size: 18pt;
     }
 
-    .rule .para{
+    .rule .para, .rule li{
         font-size: 18px;
     }
   }
@@ -58,10 +66,14 @@
         margin-left: 20px;
     }
 
-    .rule .para{
+    .rule .para, .rule li{
         padding-left: 40px;
         padding-right: 10px;
-        padding-bottom: 50px;
+        
         letter-spacing: 3px;
+    }
+
+    .rule .para{
+        padding-bottom: 50px;
     }
   }
