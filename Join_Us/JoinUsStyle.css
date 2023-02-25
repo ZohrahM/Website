@@ -7,10 +7,10 @@
 }
 
 .events {
-    width: 30%;
-    display:flex;
+    width: 40%;
+    display: flex;
     justify-content: center;
-    margin: 0 35% ;
+    margin: 0 30%;
     background: var(--color-2);
 }
 
@@ -34,7 +34,7 @@ input[type=text],
 input[type=email],
 input[type=tel] {
     display: inline-block;
-    width: 80%;
+    width: 90%;
     height: 30px;
     border: 1px solid var(--color-3);
     visibility: visible;
@@ -58,7 +58,7 @@ input[type=radio] {
     float: left;
     clear: none;
     margin: 2px 0 0 2px;
-    accent-color: black;
+    accent-color: var(--color-6);
 }
 
 .confirmation input[type=checkbox] {
@@ -70,7 +70,7 @@ input[type=radio] {
     float: left;
     clear: none;
     margin: 2px 0 0 2px;
-    accent-color: black;
+    accent-color: var(--color-6);
 }
 
 .confirmation label {
@@ -97,7 +97,7 @@ input[type=radio] {
     padding-bottom: 30px;
     padding-left: 20px;
     color: black;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .experience label {
@@ -135,7 +135,7 @@ input[type=radio] {
 }
 
 .reg {
-    padding: 5% 35% ;
+    padding: 5% 35%;
     padding-bottom: 30px;
 }
 
@@ -153,37 +153,91 @@ input[type=radio] {
     background-color: rgba(128, 113, 113, 0.259);
 }
 
-.details{
+.details {
     width: 34%;
-    margin:0 33% ;
+    margin: 0 32%;
     background: var(--color-4);
     padding: 1%;
+    border: 3px solid rgba(0, 0, 0, 0.548);
+    border-radius: 5px;
 }
 
-.details p,h2,strong,span{
+.details p,
+h2,
+strong,
+span {
     background-color: transparent;
+    color: black;
+
 }
 
-.details h2{
+.details h2 {
     text-align: center;
 }
 
-#confirmBtn{
+#confirmBtn {
     padding: 2%;
     font-size: 18px;
     border-radius: 10px;
     border: 0;
-    margin-right:20%;
+    margin-right: 20%;
     background-color: var(--color-2);
-  }
+}
 
-  #cancelBtn {
+#cancelBtn {
     float: right;
     padding: 2%;
     font-size: 18px;
     border-radius: 10px;
     border: 0;
-    margin-left:20%;
+    margin-left: 20%;
     background-color: var(--color-2);
-  }
-  
+}
+
+
+@media(max-width: 900px) {
+    .events {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin: 0 25%;
+        background: var(--color-2);
+    }
+
+    .registerform {
+        font-size: medium;
+    }
+
+    .details {
+        width: 44%;
+        margin: 0 27%;
+    }
+}
+
+
+@media(max-width: 700px) {
+    .events {
+        width: 60%;
+        margin: 0 20%;
+    }
+
+    .registerform {
+        font-size: smaller;
+    }
+
+    .details p,
+    h2,
+    strong,
+    span {
+        font-size: medium;
+    }
+
+    .details {
+        width: 54%;
+        margin: 0 22%;
+    }
+
+    #confirmBtn, #cancelBtn{
+        font-size: medium;
+    }
+}
