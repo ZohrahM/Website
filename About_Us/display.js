@@ -14,4 +14,4 @@ function display() {
 }
 
 // Call displayEntries function when page is loaded
-window.onload = display;
+window.onload = display();
