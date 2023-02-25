@@ -65,68 +65,81 @@
 
         
 
-        <div class="content">
-            <div class="box">
-                <div class="events">
-                    <div class="registerform">
-                        <form>
-                            <fieldset>
-                                <legend>Register Form</legend>
-            
-                                <div class="name">
-                                    <label for="fname">Full name:</label><br>
-                                    <input type="text" id="fname" name="fname" placeholder="John Smith" required>
-                                </div>
-                                <br>
-                                <div class="age">
-                                    <label for="age">Age:</label><br>
-                                    <input type="text" id="age" name="age" placeholder="50" required>
-                                </div>
-                                <br>
-                                <div class="gender">
-                                    <p>Gender</p>
-                                    <input type="radio" id="male" name="gender" value="Male" required>
-                                    <label for="male">Male</label>
-                                    <input type="radio" id="female" name="gender" value="Female">
-                                    <label for="female">Female</label>
-                                    <input type="radio" id="prefernottosay" name="gender" value="Prefer Not To Say">
-                                    <label for="prefernottosay">Prefer Not To Say</label>
-                                </div>
-                                <br>
-                                <div class="email">
-                                    <label for="umail">University Mail:</label><br>
-                                    <input type="email" id="umail" name="umail" placeholder="This_is_an_email@uom.ac.mu" required>
-                                </div>
-                                <br>
-                                <div class="telno">
-                                    <label for="telno">Phone Number:</label><br>
-                                    <input type="tel" id="telno" name="telno" placeholder="+230 xxxxxxxx" required>
-                                </div>
-                                <br>
-                                <div class="experience">
-                                    <label for="Experience">Experience: </label>
-                                    <select id="Experience" name="Experience">
-                                        <option value="Select">Select</option>
-                                        <option value="Beginner">Beginner</option>
-                                        <option value="Proficient">Proficient</option>
-                                        <option value="Expert">Expert</option>
-                                    </select>
-                                </div>
-                                <div class="confirmation">
-                                    <input type="checkbox" id="confirmation" name="confirmation"> 
-                                    <label for="reminder">Send Registration Confirmation email</label><br>
-                                </div>
-                                <div class="reg">
-                                    <a href="../Home/Index.html"><button id="register" input type="submit" >Register</button></a>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
+        <div class="box">
+            <div class="events">
+                <div class="registerform">
+                    <form id="registerForm" >
+                        <fieldset>
+                            <legend>Register Form</legend>
+        
+                            <div class="name">
+                                <label for="name">Full name:</label><br>
+                                <input type="text" id="name" name="name" placeholder="John Smith" required>
+                            </div>
+                            <br>
+                            <div class="age">
+                                <label for="age">Age:</label><br>
+                                <input type="text" id="age" name="age" placeholder="50" required>
+                            </div>
+                            <br>
+                            <div class="gender">
+                                <p>Gender</p>
+                                <input type="radio" id="male" name="gender" value="Male" required>
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" value="Female">
+                                <label for="female">Female</label>
+                                <input type="radio" id="prefernottosay" name="gender" value="Prefer Not To Say">
+                                <label for="prefernottosay">Prefer Not To Say</label>
+                            </div>
+                            <br>
+                            <div class="email">
+                                <label for="umail">University Mail:</label><br>
+                                <input type="email" id="umail" name="umail" placeholder="This_is_an_email@uom.ac.mu" required>
+                            </div>
+                            <br>
+                            <div class="telno">
+                                <label for="telno">Phone Number:</label><br>
+                                <input type="tel" id="telno" name="telno" placeholder="+230 xxxxxxxx" required>
+                            </div>
+                            <br>
+                            <div class="experience">
+                                <label for="experience">Experience: </label>
+                                <select id="experience" name="experience">
+                                    <option value="Select">Select</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Proficient">Proficient</option>
+                                    <option value="Expert">Expert</option>
+                                </select>
+                            </div>
+                            <div class="confirmation">
+                                <input type="checkbox" id="confirmation" name="confirmation"> 
+                                <label for="confirmation">Send Registration Confirmation email</label><br>
+                            </div>
+                            <div class="reg">
+                               <button id="register" type="submit">Register</button>
+                            </div>
+                        </fieldset>
+                    </form>
                 </div>
             </div>
         </div>
-
-
+        
+        <div id="confirmModal" style ="display:none;" >
+           <div class="details">
+            <h2>Confirm Registration</h2><br>
+            <p>Please review your registration details below:</p><br>
+            <p><strong>Name:</strong> <span id="modalName"></span></p>
+            <p><strong>Age:</strong> <span id="modalAge"></span></p>
+            <p><strong>Gender:</strong> <span id="modalGender"></span></p>
+            <p><strong>Email:</strong> <span id="modalEmail"></span></p>
+            <p><strong>Phone:</strong> <span id="modalPhone"></span></p>
+            <p><strong>Experience:</strong> <span id="modalExperience"></span></p>
+            <p><strong>Send Confirmation Mail:</strong> <span id="modalConfirmation"></span></p>
+            <br>
+            <button id="cancelBtn" type="button">Cancel</button>
+            <button id="confirmBtn" type="button">Confirm</button></div>
+        </div>
+        
         <footer>
             <div class="links">
                 <ul>
