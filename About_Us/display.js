@@ -5,7 +5,7 @@ function display() {
 	// Create list of entries as HTML string
 	var entriesList = "<ul>";
 	for (var i = 0; i < entries.length; i++) {
-		entriesList += "<li>" + entries[i].firstName + " " + entries[i].lastName + "</li>";
+		entriesList += "<li>" + entries[i].name +"</li>";
 	}
 	entriesList += "</ul>";
 
