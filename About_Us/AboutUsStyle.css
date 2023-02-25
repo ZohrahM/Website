@@ -24,6 +24,11 @@
     color:var(--color-3) ; 
 }
 
+.member li{
+    list-style: none;
+    line-height: 15px;
+}
+
 
 @media(max-width: 600px){
     .rule{
