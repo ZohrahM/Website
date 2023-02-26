@@ -47,12 +47,41 @@ var form = document.getElementById("registerForm");
 form.addEventListener("submit", function (event) {
   event.preventDefault();
 
+   // Validate name input
+   var nameInput = document.getElementById("name");
+   var nameValue = nameInput.value;
+   var namePattern = /^[A-Za-z\s]+$/;
+   if (!namePattern.test(nameValue)) {
+     alert("Name must only contain alphabets and spaces");
+     nameInput.focus();
+     return false;
+   }
+
+  // Validate age input
+  var ageInput = document.getElementById("age");
+  var ageValue = ageInput.value;
+  var agePattern = /^\d+$/;
+  if (isNaN(ageValue) || ageValue < 16 || ageValue > 90) {
+    alert("Age must be a number between 16 and 90");
+    ageInput.focus();
+    return false;
+  }
+
+
+var phoneInput = document.getElementById("telno");
+var phonePattern = /^\d{7,12}$/;
+if (!phonePattern.test(phoneInput.value)) {
+  alert("Please enter a valid phone number -(7-12 characters)");
+  phoneInput.focus();
+  return false;
+}
+
   // Get form data as an object
-  var formData = new FormData(form);
-  var data = {};
-  formData.forEach(function (value, key) {
-    data[key] = value;
-  });
+    var formData = new FormData(form);
+    var data = {};
+    formData.forEach(function (value, key) {
+      data[key] = value;
+    });
 
   var modal = document.getElementById("confirmModal");
   modal.style.display = "block";
@@ -79,21 +108,15 @@ form.addEventListener("submit", function (event) {
   });
 
   function confirmHandler() {
-
     // Retrieve existing data array from local storage, create if do not exist
     var dataArray = JSON.parse(localStorage.getItem("registrationDataArray")) || [];
 
-    // Push new form data into array
     dataArray.push(data);
-
-    // Convert array to string and store in local storage
     localStorage.setItem("registrationDataArray", JSON.stringify(dataArray));
-
     window.location.href = "../About_Us/About_Us.html";
 
     cancelBtn.removeEventListener("click", cancelHandler);
     confirmButton.removeEventListener("click", confirmHandler);
-
   }
   confirmButton.addEventListener("click", confirmHandler);
 
