@@ -232,9 +232,12 @@ strong {
 
     .details p,
     h2,
-    strong,
-    span {
+    strong {
         font-size: medium;
+    }
+
+    .details span{
+        font-size: medium;    
     }
 
     .details {
