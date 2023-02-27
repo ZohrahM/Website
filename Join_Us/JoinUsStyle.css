@@ -164,8 +164,13 @@ input[type=radio] {
 
 .details p,
 h2,
-strong,
-span {
+strong {
+    background-color: transparent;
+    color: black;
+
+}
+
+.details span{
     background-color: transparent;
     color: black;
 
